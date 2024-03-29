@@ -2,14 +2,14 @@ import Head from 'next/head';
 import {BsFillMoonStarsFill} from 'react-icons/bs';
 import {AiFillInstagram, AiFillLinkedin, AiFillYoutube} from 'react-icons/ai';
 import Image from 'next/image';
-import deved from '../public/dev-ed-wave.png'
+import deved from '../public/adryan.jpeg'
 import design from '../public/design.png';
 import code from '../public/code.png';
 import consulting from '../public/consulting.png';
-import web1 from '../public/web1.png';
-import web2 from '../public/web2.png';
-import web3 from '../public/web3.png';
-import web4 from '../public/web4.png';
+import web1 from '../public/Pictsnap.png';
+import web2 from '../public/AgileT.png';
+import web3 from '../public/PictsnapDoc.png';
+import web4 from '../public/Terminalteluk.png';
 import web5 from '../public/web5.png';
 import web6 from '../public/web6.png';
 import { useState } from 'react';
@@ -20,7 +20,7 @@ export default function Home() {
   return (
     <div className={darkMode ? "dark" : ""}>
         <Head>
-          <title>Muhammad Adryan Prawira Kusuma Portofolio</title>
+          <title>Portfolio - Adryan Prawira</title>
           <meta name="description" content="Generate by creator" />
           <link rel="icon" href="/favicon.ico"/>
         </Head>
@@ -37,14 +37,26 @@ export default function Home() {
                 <li>
                   <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" 
                   href='https://drive.google.com/file/d/1M3_uD2WdfnrudDMK_-MDhmETIPhvP59u/view?usp=sharing'>
+                    Project
+                  </a>
+                  <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" 
+                  href='https://drive.google.com/file/d/1M3_uD2WdfnrudDMK_-MDhmETIPhvP59u/view?usp=sharing'>
+                    Achievement
+                  </a>
+                  <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" 
+                  href='https://drive.google.com/file/d/1M3_uD2WdfnrudDMK_-MDhmETIPhvP59u/view?usp=sharing'>
                     Resume
+                  </a>
+                  <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" 
+                  href='https://drive.google.com/file/d/1M3_uD2WdfnrudDMK_-MDhmETIPhvP59u/view?usp=sharing'>
+                    About
                   </a>
                   </li>
               </ul>
             </nav>
             <div className="text-center p-10">
               <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">Adryan Prawira</h2>
-              <h3 className="text-2xl py-2 md:text-3xl dark:text-white">Software Developer </h3>
+              <h3 className="text-2xl py-2 md:text-3xl dark:text-white">Software Developer | IoT | Fullstack Developer </h3>
               <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-white">
                 providing services for programming needs
               </p>
@@ -134,7 +146,7 @@ export default function Home() {
             </section>
             <section>
               <div>
-                <h3 className="text-3xl py-1 dark:text-white">Portofolio</h3>
+                <h3 className="text-3xl py-1 dark:text-white">Portofolio | Mobile Apps</h3>
                 <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>
                   Since beginning of my journey as a freelancer developer, 
                   I've done remote for for
@@ -152,12 +164,34 @@ export default function Home() {
                 <div className="basis-1/3 flex-1">
                   <Image src={web2} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/>
                 </div>
+                <div>
+                <h3 className="text-3xl py-1 dark:text-white">Portofolio | Websites</h3>
+                <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>
+                  Since beginning of my journey as a freelancer developer, 
+                  I've done remote for for
+                  <span className="text-teal-500"> Agencies </span>
+                  Consulted for <span className="text-teal-500"> startups </span>
+                  and collaborated with talented people to create digital for both 
+                  business and consumer use
+                </p>
+              </div>
                 <div className="basis-1/3 flex-1">
                   <Image src={web3} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/>
                 </div>
                 <div className="basis-1/3 flex-1">
                   <Image src={web4} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/>
                 </div>
+                <div>
+                <h3 className="text-3xl py-1 dark:text-white">Portofolio | Websites AI - IoT Use Cases</h3>
+                <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>
+                  Since beginning of my journey as a freelancer developer, 
+                  I've done remote for for
+                  <span className="text-teal-500"> Agencies </span>
+                  Consulted for <span className="text-teal-500"> startups </span>
+                  and collaborated with talented people to create digital for both 
+                  business and consumer use
+                </p>
+              </div>
                 <div className="basis-1/3 flex-1">
                   <Image src={web5} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/>
                 </div>
